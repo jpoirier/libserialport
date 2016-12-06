@@ -43,6 +43,7 @@ static const struct std_baudrate std_baudrates[] = {
 	BAUD(460800),
 #endif
 #endif
+	BAUD(400000), BAUD(500000), BAUD(800000), BAUD(1000000), BAUD(2000000),
 };
 
 #define NUM_STD_BAUDRATES ARRAY_SIZE(std_baudrates)
